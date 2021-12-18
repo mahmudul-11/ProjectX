@@ -39,7 +39,7 @@ body{
 }
 .inside-main-div{
     margin: 10px;
-     background-color: #285CAB;
+     background-color: #275cab;
      border-radius: 25px;
      /* border: 1px solid white; */
 }
@@ -76,11 +76,13 @@ justify-content: center;
     color: #BB1C85;
     border-radius: 10px;
     padding: 5px 30px;
+    
   
 }
 #edit-profile-button:hover{
     background-color:#BB1C85 ;
     color: white;
+  
 }
 .single-grid{
     display: flex;
