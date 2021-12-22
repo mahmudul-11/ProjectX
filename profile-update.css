@@ -127,19 +127,66 @@ justify-content: center;
         color: black;
         width: 80%;
         border: 2px solid #285CAB;
-        border-radius: 25px;
+        border-radius: 15px;
         line-height: 32px;
         font-size: 18px;
-        text-align: center;
-        margin:0 auto 20px auto ;
+        text-align: left;
+        margin:0 auto 0 auto ;
         font-weight: 400;
+        padding: 0 10px;
         resize: none;
     
         
         
   
 }
+.input-style{
+    background-color: rgb(237, 237, 237);
+    color: black;
+    width: 80%;
+    border: 2px solid #285CAB;
+    border-radius: 10px;
+    line-height: 32px;
+    font-size: 16px;
+    text-align: left;
+    margin:0 auto 0 auto ;
+    font-weight: 400;
+    padding: 0 10px;
+    
+ 
 
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 7px;
+    
+}
+.image-upload-div{
+    display: flex;
+  
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+.form-button-div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.form-button-div-button{
+    width: 25%;
+    border: 2px solid rgb(171, 169, 209);
+    color: white;
+    padding: 5px 10px;
+    background-color: #285CAB;
+    
+    border-radius: 10px;
+}
+.form-button-div-button:hover{
+    background-color: #BB1C85;
+}
 
 
 @media only screen and (min-width: 700px) {
@@ -147,7 +194,7 @@ justify-content: center;
     .right-inner{
      
         margin: 15px 10px 10px 10px;
-        height: 95%;
+        /* height: 95%; */
        
         padding: 10px;
         
@@ -173,6 +220,10 @@ justify-content: center;
     .right-inner{
        padding: 5px 2px 10px 0;
        margin-bottom: 10px;
+    }
+    .form-button-div-button{
+        width: 30%;
+        
     }
     
  
